@@ -156,7 +156,7 @@ MessageTemplate.prototype.getContentsByPrefix = function (keyPrefix, appType, lo
     return contents;
 };
 
-MessageTemplate.prototype.getAll = function (k
+MessageTemplate.prototype.getAll = function (){
     return this.data;
 };
 
