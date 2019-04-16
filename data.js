@@ -156,4 +156,8 @@ MessageTemplate.prototype.getContentsByPrefix = function (keyPrefix, appType, lo
     return contents;
 };
 
+MessageTemplate.prototype.getAll = function (k
+    return this.data;
+};
+
 module.exports = MessageTemplate;

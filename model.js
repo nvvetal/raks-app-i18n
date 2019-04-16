@@ -392,6 +392,10 @@ class Model{
         }
         return contents;
     }
+
+    getAll() {
+	return messageTemplate.getAll();
+    }
 }
 
 module.exports = Model;
